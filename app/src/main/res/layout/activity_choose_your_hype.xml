@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.natbe.hypeyolyfe.ChooseYourHype">
+
+
+    <Button
+        android:id="@+id/Party"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/orange_round_btn"
+        android:padding="15dp"
+        android:text="Party Hype"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/Study"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/blue_round_btn"
+        android:padding="15dp"
+        android:text="Study Hype"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.158" />
+
+    <Button
+        android:id="@+id/AfterDark"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/black_round_btn"
+        android:padding="15dp"
+        android:text="After Dark Hype"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/Date"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/pink_round_btn"
+        android:padding="15dp"
+        android:text="Date Hype"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.158" />
+
+    <Button
+        android:id="@+id/Workout"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="370dp"
+        android:background="@drawable/purple_round_btn"
+        android:padding="15dp"
+        android:text="Workout Hype"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.857" />
+
+    <Button
+        android:id="@+id/General"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="370dp"
+        android:background="@drawable/green_round_btn"
+        android:padding="15dp"
+        android:text="General Hype"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
